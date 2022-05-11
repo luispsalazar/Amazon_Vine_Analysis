@@ -5,8 +5,18 @@
 
 The Amazon_Reviews_ETL.ipynb file does the following:
 An Amazon Review dataset is extracted as a DataFrame (10 pt)
+
+![11](Images/11.png)
+
 The extracted dataset is transformed into four DataFrames with the correct columns (20 pt)
+
+![12](Images/12.png)
+
+
 All four DataFrames are loaded into their respective tables in pgAdmin (10 pt)
+
+![13](Images/13.png)
+
 
 
 ## Deliverable 2: Determine Bias of Vine Reviews
