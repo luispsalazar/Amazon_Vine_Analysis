@@ -1,34 +1,53 @@
 # Amazon_Vine_Analysis, Module 16 Challenge
 
+Since your work with Jennifer on the SellBy project was so successful, you’ve been tasked with another, larger project: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
+In this project, you’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. You’ll need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. Then, you’ll write a summary of the analysis for Jennifer to submit to the SellBy stakeholders.
+
 
 ## Deliverable 1: Perform ETL on Amazon Product Reviews 
 
-The Amazon_Reviews_ETL.ipynb file does the following:
-An Amazon Review dataset is extracted as a DataFrame (10 pt)
+The Amazon Review: **"Musical Instruments"** dataset was selected, and is extracted as a DataFrame.
 
 ![11](Images/11.png)
 
-The extracted dataset is transformed into four DataFrames with the correct columns (20 pt)
+The extracted dataset is transformed into four DataFrames with the correct columns.
+
+* Customer ID and Count
 
 ![12](Images/12.png)
 
-
-All four DataFrames are loaded into their respective tables in pgAdmin (10 pt)
+* Product ID and Title
 
 ![13](Images/13.png)
 
+* Review ID
+
+![14](Images/14.png)
+
+* Vine Table
+
+![15](Images/15.png)
+
+All four DataFrames are loaded into their respective tables in pgAdmin.
+
+![160](Images/160.png)
+
+![16](Images/16.png)
+
+![17](Images/17.png)
+
+![18](Images/18.png)
+
+![19](Images/19.png)
 
 
 ## Deliverable 2: Determine Bias of Vine Reviews
 
-
-You will earn a perfect score for Deliverable 2 by completing all requirements below:
-The analysis does the following:
-There is a DataFrame or table for the vine_table data using one of three methods above (5 pt)
+There is a DataFrame or table for the vine_table data using one of three methods above.
 
 
 
-The data is filtered to create a DataFrame or table where there are 20 or more total votes (5 pt)
+The data is filtered to create a DataFrame or table where there are 20 or more total votes.
 
 
 
